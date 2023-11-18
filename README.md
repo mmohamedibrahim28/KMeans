@@ -6,8 +6,11 @@ We'll create our algorithm using python and pandas. We'll then compare it to the
 # Project Steps
 
 1.Write out pseudocode for the algorithm
+
 2.Code the k-means algorithm
+
 3.Plot the clusters from the algorithm
+
 4.Compare performance to the scikit-learn algorithm
 
 # K-means overview
@@ -16,9 +19,13 @@ K-means is an unsupervised machine learning technique that allow us to cluster d
 To run a k-means clustering:
 
 1.Specify the number of clusters you want (usually referred to as k).
+
 2.Randomly initialize the centroid for each cluster. The centroid is the data point that is in the center of the cluster.
+
 3.Determine which data points belong to which cluster by finding the closest centroid to each data point.
+
 4.Update the centroids based on the geometric mean of all the data points in the cluster.
+
 5.Run 3 and 4 until the centroids stop changing. Each run is referred to as an iteration.
 
 
